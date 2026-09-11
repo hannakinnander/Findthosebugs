@@ -5,7 +5,7 @@ import TodoList from "./TodoList";
 import type { Todo } from "../types";
 
 describe("TodoList", () => {
-  it("Markerar rätt uppgift som klar när man tryckt i checkboxen", async () => {
+  it("markerar rätt uppgift som klar när man tryckt i checkboxen", async () => {
     //Arrange
     const onToggle = vi.fn();
     const onDelete = vi.fn();
