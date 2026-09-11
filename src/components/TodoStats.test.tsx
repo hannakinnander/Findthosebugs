@@ -3,7 +3,7 @@ import { render, screen } from "@testing-library/react";
 import type { Todo } from "../types";
 
 describe("TodoStats", () => {
-  it("Visar antal kvarstående todos och totalt antal todos", () => {
+  it("visar antal kvarstående todos och totalt antal todos", () => {
     //Arrange
     const todos: Todo[] = [
       { id: 1, text: "Städa", completed: false },

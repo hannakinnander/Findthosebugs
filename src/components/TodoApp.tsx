@@ -29,7 +29,7 @@ export default function TodoApp() {
 
   const filteredTodos = todos.filter((todo) => {
     if (filter === "active") return !todo.completed;
-    if (filter === "completed") return !todo.completed;
+    if (filter === "completed") return todo.completed;
     return true;
   });
 
